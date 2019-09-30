@@ -70,4 +70,3 @@ Stopping the application
 
 Thanks to Twitter for emoji support with [Twemoji](https://github.com/twitter/twemoji).
 
-Made with ❤️ from Nepal 🇳🇵
