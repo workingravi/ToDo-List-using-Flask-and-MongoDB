@@ -8,60 +8,55 @@ body{
 	left-margin:10px;
 	right-margin:10px;
 }
-table{
-	width:95%;
-	border-collapse:collapse;
-	table-layout:fixed;
+
+.submit{
+	border: none;
+	color: #428bca;
+	border-radius: 15px 15px;
+	padding: 10px 10px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
 }
-td
+
+.reset{
+	background-color: #428bca;
+	border: none;
+	color: white;
+	border-radius: 15px 15px;
+	padding: 10px 10px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+table{
+  background-color:rgb(200, 0, 0);
+  width:5%;
+	border-collapse:collapse;
+  border: 1px solid red;
+}
+
+  
+th,td
 {
 	border: rgba(224, 119, 70, 1) 1px solid;
-	word-wrap:break-word;
+	text-align: left;
 }
-table#close{
-
-	table-layout:default;
-	border-collapse:seperate;
-	border-spacing: 5px 5px;
-	border:none;
-	vertical-align:top;
-}
-table.none
-{
-	border:none;
-	vertical-align:top;
-}
-table.none td
-{
-	border: none;
-}
-tr.row td{
-	text-decoration:italic;
-}
-th.status{
-	width:5%;
-}
+  
 th.name{
-	width:20%;
+	width:30%;
 }
 th.des{
-	width:40%;
-	padding:5px 5px 5px 5px;
+	width:50%;
 }
-th.date{
-	width:8%;
+th.export{
+	width:20%;
 }
-th.pr{
-	width:7%;
-}
-th.func1{
-	width:6%;
-}
-th.func2{
-	width:5%;
-}
-td.date, td.pr, td.func1, td.func2 {
-	text-align: center;
+
+.row{
+  border-spacing:10px;
+  align
 }
 
 /* Grid CSS */
@@ -71,29 +66,7 @@ td.date, td.pr, td.func1, td.func2 {
   display: table;
   margin: 1.2em;
 }
-.col-1 { width: 8.33%; }
-.col-2 { width: 16.66%; }
-.col-3 { width: 25%; }
-.col-4 { width: 33.33%; }
-.col-5 { width: 41.66%; }
-.col-6 { width: 50%; }
-.col-7 { width: 58.33%; }
-.col-8 { width: 66.66%; }
-.col-9 { width: 75%; }
-.col-10 { width: 83.33%; }
-.col-11 { width: 91.66%; }
-.col-12 { width: 100%; }
 
-button[type=submit] {
-	background-color: #428bca;
-	border: none;
-	color: white;
-	border-radius: 15px 15px;
-	padding: 10px 20px;
-	text-decoration: none;
-	margin: 4px 2px;
-	cursor: pointer;
-}
 
 .success { color: #5cb85c; }
 .danger { color: #d9534f; }
@@ -117,6 +90,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 a.active {
     background-color: #4CAF50;
 }

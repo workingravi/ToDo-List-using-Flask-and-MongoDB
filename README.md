@@ -64,6 +64,10 @@ Stopping the application
     $ docker-compose down
 ```
 
+## Screenshot :
 
+![Screenshot of the Output](https://github.com/CoolBoi567/ToDo-List-using-Flask-and-MongoDB/blob/master/static/images/screenshot.jpg?raw=true "Screenshot of Output")
 
 Thanks to Twitter for emoji support with [Twemoji](https://github.com/twitter/twemoji).
+
+Made with ❤️ from Nepal 🇳🇵
